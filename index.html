@@ -21,19 +21,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link text-white" href="column">Column</a>
+              <a class="nav-link text-white" href="#column">Column</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Flex</a>
+              <a class="nav-link text-white" href="#Flex">Flex</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Tab</a>
+              <a class="nav-link text-white" href="#Tab">Tab</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Embeds</a>
+              <a class="nav-link text-white" href="#Embeds">Embeds</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Model</a>
+              <a class="nav-link text-white" href="#Modal">Modal</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Card</a>
@@ -49,7 +49,7 @@
       </nav>
     </header>
       
-      <!--スライドショー-->
+    <!--スライドショー-->
     <div class="kyevisual">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -88,7 +88,7 @@
       </div>
     </div>
     
-      <!--Bootstrapの特徴-->
+    <!--Bootstrapの特徴-->
     <div class="container bg-white py-5 my-5">
       <div id="column">
         <h2 class="text-center py-3">Bootstrapの特徴</h2>
@@ -105,7 +105,172 @@
         </div>
       </div>
       
+    <!--お客様の声-->
+      <div id="Flex">
+        <h2 class="text-center py-3">お客様の声</h2>
+      </div>
+      <div class="d-flex flex-wrap-reverse justify-content-center">
+        <div class="col-md-6 col-12 p-0 align-self-center h3 p-4">
+          ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト
+        </div>
+        <div class="col-md-6 col-12 p-0 align-self-center">
+          <img class="img-fluid" src="bootstrap_img/img4.jpeg"></img>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap justify-content-center">
+        <div class="col-md-6 col-12 p-0 align-self-center">
+          <img class="img-fluid" src="bootstrap_img/img5.jpeg"></img>
+        </div>
+        <div class="col-md-6 col-12 p-0 align-self-center h3 p-4">
+          ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト、ダミーテキスト
+        </div>
+      </div>
+      
+    <!--BootStrapのタブ-->
+      <div id="Tab">
+        <h2 class="text-center py-3">BootStrapのタブ</h2>
+      </div>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item col-4">
+          <a class="nav-link active text-center" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">グリッドシステム</a>
+        </li>
+        <li class="nav-item col-4">
+          <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">OOCSS</a>
+        </li>
+        <li class="nav-item col-4">
+          <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">豊富なコンポーネント</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+            BootStrapでは横幅を１２個の列に分けたグリッドシステムを採用したデザインになっています。１２は２、３、４、６で割り切れるのでレスポンシブデザインにも対応しています。
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+          BootStrapではOOCSS（Object-Oriented CSS）というオブジェクト指向CSSが採用されています。 構造と見た目を切り離した設計になります。
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+          このサイトでも使われているようにBootstrapでは様々なコンポーネントが用意されています。 公式サイトで調べながら使いながら慣れていきましょう。
+          </div>
+        </div>
+      </div>
+      
+      <!--YouTube-->
+      <div id="Embeds">
+        <h2 class="text-center py-3">YouTube</h2>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KQ6zr6kCPj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+      <!--よくある質問-->
+      <div id="Modal">
+        <h2 class="text-center py-3">よくある質問</h2>
+      </div>
+      <div class="row">
+        <div class="col-6 pt-3">
+          <!-- Button trigger modal -->
+          <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter1">
+            どうやったら学習の理解が深まりますか？
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">どうやったら学習の理解が深まりますか？</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  他人に説明できるようになることを意識し、学習を進めると理解が深まる。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-6 pt-3">
+          <!-- Button trigger modal -->
+          <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter2">
+            北海道は寒いですか？
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">北海道は寒いですか？</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  寒い！
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-6 pt-3">
+          <!-- Button trigger modal -->
+          <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter3">
+            好きな食べ物はなんですか？
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">好きな食べ物はなんですか？</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  寿司！
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-6 pt-3">
+          <!-- Button trigger modal -->
+          <div class="text-dark border p-3" data-toggle="modal" data-target="#exampleModalCenter4">
+            北海道の魅力はなんですか？
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">北海道の魅力はなんですか？？</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  食べ物が美味しいところ、景色が綺麗なところ。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
     </div>
+    
     
 
     <!-- Optional JavaScript -->
